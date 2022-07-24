@@ -61,6 +61,7 @@ class Book(models.Model):
     average_rating = models.FloatField(null=True)
     thumbnail = models.URLField(null=True)
 
+
     def __str__(self):
         return self.title
 
