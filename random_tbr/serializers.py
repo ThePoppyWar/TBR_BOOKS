@@ -21,3 +21,5 @@ class BookSerializers(serializers.ModelSerializer):
         model = Book
         fields = ("title", "authors", 'categories', 'cover', 'average_rating', 'thumbnail')
 
+
+
